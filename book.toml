@@ -1,0 +1,16 @@
+[book]
+# 作者
+authors = ["henry_23"]
+# 标题
+title = "mdBook 模板"
+language = "zh-cn"
+multilingual = false
+src = "src"
+
+[output.html]
+# Git 仓库链接
+git-repository-url = "https://github.com/tsagaanbar/mdbook-template"
+# 编辑链接模板
+edit-url-template = "https://github.com/tsagaanbar/mdbook-template/edit/main/{path}"
+# MathJax 支持
+mathjax-support = true
