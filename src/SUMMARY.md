@@ -5,6 +5,6 @@
 
 <!-- 章节的第一条，也会被额外渲染为根目录下的 index.html -->
 
-[前言](./preface.md)
+[前言](./README.md)
 
 - [第 1 章](./chpt-01/README.md)
