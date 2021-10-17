@@ -3,7 +3,9 @@
 authors = ["henry_23"]
 # 标题
 title = "mdBook 模板"
-language = "zh-cn"
+language = "zh-Hans"
+# "zh-Hans": Simplified Chinese
+# "zh-Hant": Traditional Chinese
 multilingual = false
 src = "src"
 
