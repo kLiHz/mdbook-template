@@ -1,0 +1,11 @@
+html {
+    font-family: "Times New Roman", "SimSun", serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Source Han Sans", sans-serif;
+}
+
+kbd, code {
+    font-family: Consolas, "Ubuntu Mono", Menlo, "DejaVu Sans Mono", monospace, monospace !important;
+}

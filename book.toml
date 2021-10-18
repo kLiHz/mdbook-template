@@ -10,6 +10,7 @@ multilingual = false
 src = "src"
 
 [output.html]
+additional-css = ["theme/css/custom-style.css", "theme/css/custom-font.css"]
 # Git 仓库链接
 git-repository-url = "https://github.com/tsagaanbar/mdbook-template"
 # 编辑链接模板
