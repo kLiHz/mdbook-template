@@ -6,6 +6,16 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Source Han Sans", sans-serif;
 }
 
+@font-face {
+    font-family: ObliqueCursiveCJK;
+    src: local('KaiTi');
+    font-style: oblique;
+}
+
+em {
+    font-family: 'Times New Roman', ObliqueCursiveCJK, cursive;
+}
+
 kbd, code {
     font-family: Consolas, "Ubuntu Mono", Menlo, "DejaVu Sans Mono", monospace, monospace !important;
 }
