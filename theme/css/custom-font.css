@@ -6,14 +6,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Source Han Sans", sans-serif;
 }
 
-@font-face {
-    font-family: ObliqueCursiveCJK;
-    src: local('KaiTi');
-    font-style: oblique;
-}
-
 em {
-    font-family: 'Times New Roman', ObliqueCursiveCJK, cursive;
+    font-style: italic;
+    font-synthesis: none;  /* browser will not synthesize an oblique font face */
+    font-family: "Times New Roman", "KaiTi", sans-serif;
 }
 
 kbd, code {
