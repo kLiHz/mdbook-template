@@ -19,3 +19,7 @@ mdbook serve -n 0.0.0.0 -p 3000
 亦可执行 `mdbook build` 命令，而后手动打开 `book` 目录下的 `index.html` 文件，开始阅览。
 
 [mdbook]: https://github.com/rust-lang/mdBook
+
+## 版权声明
+
+除特别注明外，项目中除代码外的部分均在 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.zh) 协议之条款下提供。
