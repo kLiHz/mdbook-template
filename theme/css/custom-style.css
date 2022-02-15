@@ -12,3 +12,15 @@
 .content figcaption {
     text-align: center;
 }
+
+kbd {
+    border-radius: 3px;
+    padding: 0.1em 0.3em;
+    border: 1px solid var(--table-header-bg);
+    font-size: 0.875em;
+}
+
+#menu-bar.bordered {
+    background-color: hsla(var(--bg), 0.7);
+    backdrop-filter: blur(10px);
+}
