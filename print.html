@@ -80,7 +80,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">前言</a></li><li class="chapter-item expanded "><a href="chpt-01/index.html"><strong aria-hidden="true">1.</strong> 第 1 章</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">前言</a></li><li class="chapter-item expanded "><a href="demo/index.html"><strong aria-hidden="true">1.</strong> 效果展示</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="demo/text.html"><strong aria-hidden="true">1.1.</strong> 示例文本</a></li><li class="chapter-item expanded "><a href="demo/figures.html"><strong aria-hidden="true">1.2.</strong> 示例图像</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -164,17 +164,34 @@
 </ul>
 </li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="第-1-章"><a class="header" href="#第-1-章">第 1 章</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="效果展示"><a class="header" href="#效果展示">效果展示</a></h1>
 <h2 id="章节概览"><a class="header" href="#章节概览">章节概览</a></h2>
 <p>章节概览（可选）</p>
-<h2 id="示例标题"><a class="header" href="#示例标题">示例标题</a></h2>
+<ul>
+<li><a href="demo/./text.html">示例文本</a></li>
+<li><a href="demo/./figures.html">示例图像</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="文本示例"><a class="header" href="#文本示例">文本示例</a></h1>
+<h2 id="正文"><a class="header" href="#正文">正文</a></h2>
 <p>被<em>强调</em>的文本是这样子的：<em>emphasis</em>。</p>
-<h2 id="样例图片"><a class="header" href="#样例图片">样例图片</a></h2>
-<p>这是一幅样例图片：</p>
-<p><img src="chpt-01/./assets/sample-pattern.svg" alt="样例图案" title="样例图案：将一正 n 边形的顶点两两相连" /></p>
-<p>这是一幅图表（HTML 标签 <code>&lt;figure&gt;</code>）：</p>
+<p><strong>注</strong>：本模板客制化了正文字体：正文采用衬线字体，标题采用无衬线字体。</p>
+<h2 id="表格"><a class="header" href="#表格">表格</a></h2>
+<p>样例表格：</p>
+<table><thead><tr><th style="text-align: center">Header 1</th><th style="text-align: center">Header 2</th><th style="text-align: center">Header 3</th></tr></thead><tbody>
+<tr><td style="text-align: center">123</td><td style="text-align: center">456</td><td style="text-align: center">789</td></tr>
+</tbody></table>
+<h2 id="代码块"><a class="header" href="#代码块">代码块</a></h2>
+<pre><pre class="playground"><code class="language-rust">fn main() {
+    println!(&quot;Hello!&quot;);
+}
+</code></pre></pre>
+<p><strong>注</strong>：本模板客制化了 HTML 标签 <code>&lt;kbd&gt;</code>，效果如下：<kbd>Control</kbd> + <kbd>C</kbd></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="图片--图表"><a class="header" href="#图片--图表">图片 &amp; 图表</a></h1>
+<p>样例图片：</p>
+<p><img src="demo/./assets/sample-pattern.svg" alt="样例图案" title="样例图案：将一正 n 边形的顶点两两相连" /></p>
+<p><strong>注</strong>：本模板为 <strong>图表</strong> (HTML 标签 <code>&lt;figure&gt;</code>) 定制了样式，如下所示：</p>
 <figure>
-<p><img src="chpt-01/./assets/sample-pattern.svg" alt="样例图案" title="样例图案：将一正 n 边形的顶点两两相连" />
+<p><img src="demo/./assets/sample-pattern.svg" alt="样例图案" title="样例图案：将一正 n 边形的顶点两两相连" />
 <figcaption>图 1：将一正 <em>n</em> 边形的顶点两两相连</figcaption></p>
 </figure>
 
