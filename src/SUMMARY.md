@@ -7,4 +7,6 @@
 
 [前言](./README.md)
 
-- [第 1 章](./chpt-01/README.md)
+- [效果展示](./demo/README.md)
+    - [示例文本](./demo/text.md)
+    - [示例图像](./demo/figures.md)
