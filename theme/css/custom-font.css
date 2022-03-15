@@ -12,6 +12,10 @@ em {
     font-family: "Georgia", "Times New Roman", "KaiTi", sans-serif;
 }
 
+figcaption {
+    font-family: "Georgia", "Times New Roman", "FangSong", serif;
+}
+
 kbd, code {
     font-family: Consolas, "Ubuntu Mono", Menlo, "DejaVu Sans Mono", monospace, monospace !important;
 }
