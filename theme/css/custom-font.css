@@ -1,5 +1,5 @@
 html {
-    font-family: "Times New Roman", "SimSun", serif;
+    font-family: "Georgia", "Times New Roman", "SimSun", serif;
 }
 
 h1, h2, h3, h4, h5, h6, strong {
@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6, strong {
 em {
     font-style: italic;
     font-synthesis: none;  /* browser will not synthesize an oblique font face */
-    font-family: "Times New Roman", "KaiTi", sans-serif;
+    font-family: "Georgia", "Times New Roman", "KaiTi", sans-serif;
 }
 
 kbd, code {
